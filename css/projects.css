@@ -2,8 +2,14 @@
 main{
     margin: 0 auto;
     max-width: 800px;
+    padding:1rem;
 }
 
+.img_container{
+    width:80%;
+    margin: 0 auto;
+    padding: 1.2rem;
+}
 /* Alignment for main heading */
 h1{
     text-align: center;
@@ -14,15 +20,19 @@ img{
     max-width: 100%;
 }
 
-/* Width and alignment setting for the image container */
-.img_container{
-    width:60%;
-    margin: 0 auto;
-    padding:1rem 1rem 2rem;
-}
+
 
 /* Styling the project paragraph */
 p{
     text-align: justify;
     line-height: 2rem;
+}
+
+@media screen and (min-width: 1000px){
+    
+    /* Width and alignment setting for the image container */
+.img_container{
+    width:70%;
+    padding:2rem 1rem 2rem;
+}
 }
