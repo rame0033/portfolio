@@ -10,6 +10,10 @@ main{
     margin: 0 auto;
     padding: 1.2rem;
 }
+
+a{
+    color: #333;
+}
 /* Alignment for main heading */
 h1{
     text-align: center;
