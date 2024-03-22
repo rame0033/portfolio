@@ -12,9 +12,13 @@ h1{
     color: #333;
 }
 
-h2{
+h2, h3, h4, h5, h6{
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
 }
 
 /* style for nav a */
