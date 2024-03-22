@@ -1,0 +1,28 @@
+/* Main container */
+main{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Alignment for main heading */
+h1{
+    text-align: center;
+}
+
+/* Setting max-width for image */
+img{
+    max-width: 100%;
+}
+
+/* Width and alignment setting for the image container */
+.img_container{
+    width:60%;
+    margin: 0 auto;
+    padding:1rem 1rem 2rem;
+}
+
+/* Styling the project paragraph */
+p{
+    text-align: justify;
+    line-height: 2rem;
+}

@@ -1,0 +1,5 @@
+/* Consolidated stylesheet */
+
+@import url(css/typography.css);
+@import url(css/projects.css);
+@import url(css/header-footer.css)

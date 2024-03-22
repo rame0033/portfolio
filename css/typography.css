@@ -2,18 +2,60 @@
 @import url('https://fonts.cdnfonts.com/css/neutro'); 
 
 /*********ARCHIVO - BODY FONT********/
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Use this when selecting any body paragraph property */
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-// <width>: Use a value from 62 to 125
+/* Styles for heading */
+h1{
+    font-family: 'Neutro', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #333;
+}
 
-.archivo-<uniquifier> {
-  font-family: "Archivo", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" <width>;
-} */
+h2{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+}
+
+/* style for nav a */
+li a{
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+}
+/* Style f
+r body paragraph */
+p{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Footer */
+
+/* Footer link */
+footer a{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer style */
+footer{
+    display: flex;
+    padding:1.5rem 1.5rem 0.5rem;
+}
+
+.attribution{
+    flex-grow: 1;
+}
+
+.socmed{
+    display: flex;
+    gap: 1rem;
+}
