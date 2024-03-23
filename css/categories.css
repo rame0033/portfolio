@@ -1,0 +1,38 @@
+
+/* Positioning the body */
+.main_category {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding:1rem;
+}
+
+.main_content p{
+    text-align: center;
+}
+
+/* Styling the photo borders */
+.cardpic {
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+/* Styling photo card to equalize w&h with other cards */
+.cardpic.naiv {
+    object-fit: cover;
+    width:100%;
+}
+
+@media screen and (max-width:991px) {
+    /* Setting height of the Naiv photo card */
+    .cardpic.naiv {
+        height: 71%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    /* Setting height of the Naiv photo card */
+    .cardpic.naiv {
+        height: 58%;
+    }
+}
