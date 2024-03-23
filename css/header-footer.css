@@ -21,14 +21,22 @@ footer{
 }
 
 /* Header style for larger screens */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:992px) {
     /* NAV BAR */
-.navbar-brand{
-    flex-grow: 70;
+    .navbar{
+        padding: 1rem 0;
+    }
+    .navbar-brand{
+        flex-grow: 20;
+    }
+.navbar-brand img{
+    width:15rem;
+    padding-left: 2rem;
 }
 
-.navbar-brand img{
-    width:15rem
+.navbar-nav{
+    position: relative;
+    padding-top:0.4rem;
 }
 
 .nav-item{
