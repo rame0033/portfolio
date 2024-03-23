@@ -55,9 +55,9 @@ h1 {
     text-align: center;
 }
 
-/* Setting max-width for image */
-img {
-    max-width: 100%;
+/* Setting max-width for images - photography category */
+.photography img {
+    width: 100%;
 }
 
 /* Styling the project paragraph */
