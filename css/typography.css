@@ -7,7 +7,7 @@
 /* Styles for heading */
 h1{
     font-family: 'Neutro', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.2;
     color: #333;
 }
@@ -70,4 +70,12 @@ footer p{
 .socmed a:hover{
     color: #3E69B2;
     transition: all 0.2s ease-in-out;           
+}
+
+@media screen and (min-width:768px) {
+    /* Adds heading size for larger screens */
+    h1{
+        font-size: 2rem;
+    }
+    
 }
