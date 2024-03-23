@@ -78,6 +78,14 @@ picture img{
     border-radius: 10px;
 }
 
+
+/* Positioning youtube video iframe */
+.youtube-video {
+  align-self: center;
+  width: 100%;
+  height:20rem;
+}
+
 @media screen and (min-width: 600px) {
 
     .button_links {
