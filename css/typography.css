@@ -7,7 +7,7 @@
 /* Styles for heading */
 h1{
     font-family: 'Neutro', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.2;
     color: #333;
 }
@@ -32,8 +32,8 @@ r body paragraph */
 p{
     font-family: 'Archivo', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 0.5rem;
     color: #333;
 }
 
@@ -76,6 +76,10 @@ footer p{
     /* Adds heading size for larger screens */
     h1{
         font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.3rem;
     }
     
 }
