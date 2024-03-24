@@ -29,7 +29,8 @@ li a{
 }
 /* Style f
 r body paragraph */
-p{
+p,
+a{
     font-family: 'Archivo', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -55,7 +56,7 @@ footer{
 
 footer p{
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-top: 0.3rem;
 }
 .attribution{
@@ -82,4 +83,7 @@ footer p{
         font-size: 1.3rem;
     }
     
+    footer p{
+        font-size: 1.15rem;
+    }
 }
