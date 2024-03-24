@@ -14,6 +14,7 @@
 .cardpic {
     margin-bottom: 1rem;
     border-radius: 10px;
+    width: 100%;;
 }
 
 /* Styling photo card to equalize w&h with other cards */
