@@ -12,7 +12,7 @@
 }
 
 /* Set the image full width inside container */
-.img_container_img {
+.img_container img {
     width: 100%;
 }
 
