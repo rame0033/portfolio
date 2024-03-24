@@ -11,6 +11,11 @@
     padding: 1.2rem;
 }
 
+/* Set the image full width inside container */
+.img_container_img {
+    width: 100%;
+}
+
 a {
     color: #333;
 }
