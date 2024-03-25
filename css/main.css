@@ -96,9 +96,14 @@
     width: 100%;
 }
 
-/* Form textarea */
+/* Form text area */
 textarea {
     height: 20rem;
+}
+
+/* Change placeholder color */
+.form-control::placeholder{
+    color: rgb(195, 189, 189);
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
