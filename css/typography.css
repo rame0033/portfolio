@@ -27,15 +27,19 @@ li a{
     line-height: 1.5;
     text-decoration: none;
 }
+
 /* Style for body paragraph */
 p,
-a,
 q {
     font-family: 'Archivo', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 0.5rem;
     color: #333;
+}
+
+a{
+    font-family: 'Archivo', sans-serif;
 }
 
 q{
