@@ -125,8 +125,18 @@ textarea {
         height:auto;
     }
 
+    /* Align text card at the center of the text-wrap */
     .proj_spot .proj_card .projcardtitle {
         justify-content: center;
+        margin:0 auto;
+        width:40%;
+    }
+
+    /* Adjusting font-size for tablet screen */
+
+    /* For portfolio categories heading */
+    .main_cat.proj_card.projcardtitle h3{
+        font-size: 3rem;
     }
 
     .proj_spot .proj_card .projcardtitle h3 {
@@ -164,6 +174,17 @@ textarea {
         justify-content: space-between;
         align-items: flex-start;
         width: 40%;
+    }
+
+    /* Width for home banner */
+    .banner .home.text-wrap{
+        width:49%;
+    }
+
+    .banner .home.text-wrap p{
+        padding-top:0; 
+        font-size:1.25rem;
+        line-height:1.7rem;
     }
 
     .banner .text-wrap h1 {
