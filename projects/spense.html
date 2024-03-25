@@ -80,22 +80,13 @@
 
             <p>All of the assets are provided by codewell so I just determined what images should load for a specific media query. The art direction is used to determine which photo should be displayed on a phone vs. a tablet vs. a desktop.</p>
 
-<!-- Code Snippet -->
-<div class="code_wrap">
- <pre class="snippet">
-    <code>
-      &lt;picture class="imgwrap"&gt;
-        &lt;source srcset="images/hero_mobile.png" media="(max-width:659px)"&gt;
-        &lt;source srcset="images/hero_tablet.png" media="(max-width:1023px)"&gt;
-        &lt;source srcset="images/hero_desktop.png" media="(min-width:1024px)"&gt;
+            <!-- Code snippet -->
+            <div class="img_container">
+                <img src="../images/img_snip.png" alt="Code snippet for image query">
+            </div>
 
-        &lt;img class="default_img" src="images/hero_tablet.png" alt="Hero image"&gt;
-      &lt;/picture&gt;
-      </code>
-    </pre>
-</div>
         <!-- Last paragraph -->
-            <p>I used the <code>&lt;picture&gt;</code> that will serve as a container for my images, and inside that are the <code>&lt;source&gt;</code> elements that represent each image that will be switched to respective media query.</p>
+            <p>I used the <code>&lt;picture&gt;</code> that will serve as a container for my images, and inside that are the <code>&lt;source&gt;</code> elements that represent each image that will be switched to respective media query. For the first two images, I used the <code>max-width</code> property since it enabled me to switch image layout rather than using <code>min-width</code> property during the site testing.</p>
         </div>
 
     </main>
