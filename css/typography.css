@@ -12,7 +12,13 @@ h1{
     color: #333;
 }
 
-h2, h3, h4, h5, h6{
+.main_category h2{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h3, h4, h5, h6{
     font-family: 'Archivo', sans-serif;
     font-weight: 600;
 }
