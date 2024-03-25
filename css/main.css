@@ -1,66 +1,82 @@
 /* BANNER */
-/*
-This is for media query
-.text-wrap h1{
-    text-align: left;
-} */
 
 /* BANNER */
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 2rem;
 }
 
 /* Text-wrap for banner */
-.banner .text-wrap, 
+.banner .text-wrap,
 /* SOCIAL ICONS */
-.banner .socials{
+.banner .socials {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.socials .bx{
-    font-size:2rem;
-    padding-right:0.5rem;
+/* Adjusting font-size for about banner */
+.about p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
-.banner .socials a
-{
+/* Styling the box-icons font */
+.socials .bx {
+    font-size: 2rem;
+    padding-right: 0.5rem;
+}
+
+.banner .socials a {
     font-size: 1.5rem;
     line-height: 4rem;
     text-decoration: none;
 }
 
 /* Adding colors to social icons */
-.socials .bxl-whatsapp{
+.socials .bxl-whatsapp {
     color: #25D366;
 }
 
-.socials .bxl-linkedin{
+.socials .bxl-linkedin {
     color: #0A66C2;
 }
 
-.socials .bxl-instagram{
+.socials .bxl-instagram {
     color: #E4405F;
 }
 
-.banner img{
+
+/* Styling the hero image */
+.banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-/* CONTACT FORM */
+/* Aligning card text to the left */
+.projcardtitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 
-.display-6{
+.projcardtitle p {
+    line-height: 0;
+}
+
+
+/* CONTACT FORM */
+.display-6 {
     font-family: 'Archivo', sans-serif;
     text-align: center;
-    padding-top:1rem;
+    padding-top: 1rem;
 }
 
 /* BUTTON */
@@ -81,50 +97,108 @@ This is for media query
 }
 
 /* Form textarea */
-textarea{
+textarea {
     height: 20rem;
 }
 
-@media screen and (min-width:960px){
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+    /* Styling the card for tablet screen */
+    .proj_spot{
+        padding-top:1rem;
+    }
+    .proj_spot .proj_card a {
+        display: flex;
+        flex-direction: row;
+        box-shadow: -4px 0px 35px -3px rgba(0,0,0,0.1);
+        border-radius: 20px;
+    }
+
+    /* Styling the 2nd card to row-reverse */
+    .proj_spot .proj_card.card2 a {
+        flex-direction: row-reverse;
+    }
+
+    /* Width setting for card img */
+    .proj_spot .proj_card picture {
+        width: 50%;
+        height:auto;
+    }
+
+    .proj_spot .proj_card .projcardtitle {
+        justify-content: center;
+    }
+
+    .proj_spot .proj_card .projcardtitle h3 {
+        font-size: 2.5rem;
+    }
+
+    .proj_spot .proj_card .projcardtitle p {
+        font-size: 1.5rem;
+    }
+
+    .proj_spot .proj_card picture img{
+        margin-bottom: 0;
+    }
+
+}
+
+@media screen and (min-width:960px) {
 
     /****BANNER******/
-    .banner{
+    .banner {
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-    .banner h1{
+    .banner.about {
+        flex-direction: row-reverse;
+    }
+
+    .banner h1 {
         font-size: 3rem;
     }
 
-    .banner .text-wrap{
+    .banner .text-wrap {
         justify-content: space-between;
         align-items: flex-start;
         width: 40%;
-}
+    }
 
-    .banner .text-wrap h1{
+    .banner .text-wrap h1 {
         text-align: left;
     }
 
-    .banner .socials{
+    .banner .socials {
         flex-flow: row wrap;
         text-align: center;
         width: 300px;
-        gap:1rem;
+        gap: 1rem;
     }
 
-    .banner .socials a{
+    .banner .socials a {
         line-height: 2rem;
     }
 
-    .display-6{
+    .display-6 {
         font-size: 2rem;
     }
 
     /* CONTCT BUTTON */
-    .btn-primary{
+    .btn-primary {
         width: 20%;
     }
+}
+
+/* Set the card section display in a row */
+@media screen and (min-width:1024px){
+    
+    /* Set the equal height of cards*/
+    
+    .proj_spot .card_wrap{
+        display: flex;
+        flex-direction: row;
+    }
+    
 }
