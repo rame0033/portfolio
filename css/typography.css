@@ -82,6 +82,8 @@ footer p{
     gap: 1rem;
 }
 
+/* LOve HAte */
+
 .socmed a:hover{
     color: #3E69B2;
     transition: all 0.2s ease-in-out;           
