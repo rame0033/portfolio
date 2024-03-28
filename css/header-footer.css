@@ -1,8 +1,22 @@
+:root{
+    --bs-active: #ffffff;
+    --bs-active-rgb: 255, 255, 255;
+}
+
 /* Nav-link active */
 .nav-link:focus,
 .nav-link:active {
-    color:white;
+    color:var(--bs-active);
     background-color: #3E69B2;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-active);
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: var(--bs-primary);
+    border-radius: 0;
 }
 
 /* Footer style */
