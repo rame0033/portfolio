@@ -29,7 +29,7 @@
 
 /* Adjust line spacing between first and last paragraph - about page */
 .about .secondpar{
-    margin-top:0.9rem;
+    margin-top:-0.9rem;
 }
 
 /* Styling the box-icons font */
