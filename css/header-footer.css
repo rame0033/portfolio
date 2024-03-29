@@ -36,13 +36,18 @@ footer{
 
 /* Header style for larger screens */
 @media screen and (min-width:992px) {
+
     /* NAV BAR */
     .navbar{
         padding: 1rem 0;
     }
+
+    /* To add a gap between logo and nav links */
     .navbar-brand{
         flex-grow: 20;
     }
+
+/* Adjusts logo size in larger screens */
 .navbar-brand img{
     width:15rem;
     padding-left: 2rem;
@@ -68,7 +73,7 @@ li a:hover{
 
 }
 
-/* Focus and activr styles for larger screens */
+/* Focus and active styles for larger screens */
 nav a:focus,
 nav a:active {
     border-radius: 10px;
