@@ -22,6 +22,11 @@
     padding: 1.2rem;
 }
 
+/* Adding gaps between heading body and picture */
+.project_body .content h2{
+    padding-top: 1rem;
+}
+
 /* Set the image full width inside container */
 .img_container img {
     width: 100%;
