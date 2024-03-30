@@ -13,8 +13,7 @@
 
 /* Text-wrap for banner */
 .banner .text-wrap,
-/* SOCIAL ICONS */
-.banner .socials {
+.banner .socials /* SOCIAL ICONS */ {
     display: flex;
     flex-direction: column;
     align-items: center;
