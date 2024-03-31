@@ -4,7 +4,7 @@
 .main_category {
     margin: 0 auto;
     max-width: 1200px;
-    padding:1rem;
+    padding:0 1rem;
 }
 
 .main_content p{
