@@ -53,6 +53,16 @@
     margin-top:1rem;
 }
 
+@media  screen and (min-width:768px) {
+    /* Setting max-width for photography paragraph */
+    .main_category p {
+        margin: 0 auto;
+        max-width: 800px;
+        padding-bottom: 2rem;
+        line-height: 2rem;
+    }
+}
+
 @media screen and (max-width:991px) {
     /* Setting height of the Naiv photo card */
     .cardpic.naiv {
