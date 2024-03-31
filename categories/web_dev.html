@@ -17,6 +17,9 @@
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="../styles.css">
 
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="../dist/aos.css">
+
 </head>
 
 <body>
@@ -66,7 +69,7 @@
         <!-- Grid project cards -->
         <div class="cards">
 
-            <div class="proj_card card1">
+            <div class="proj_card card1" data-aos="fade-up">
                 <a href="../projects/fashion.html" aria-label="Read more about website prototype project">
                     <img src="../images/thumbnail/fashion.jpg" alt="Website Prototype">
                     <div class="cardtitle">
@@ -75,7 +78,7 @@
                 </a>
             </div>
             
-            <div class="proj_card card2">
+            <div class="proj_card card2" data-aos="fade-up">
                 <a href="../projects/spense.html" aria-label="Read more about spense landing page project">
                     <img src="../images/thumbnail/specter.jpg" alt="spense landing page">
                     <div class="cardtitle">
@@ -84,7 +87,7 @@
                 </a>
             </div>
             
-            <div class="proj_card card3">
+            <div class="proj_card card3" data-aos="fade-up">
                 <a href="../projects/jonspecter.html" aria-label="Read more about web developer portfolio project">
                 <img src="../images/thumbnail/portfolio_site.jpg" alt="Web Developer Portfolio">
                     <div class="cardtitle">
@@ -93,7 +96,7 @@
                 </a>
             </div>
 
-            <div class="proj_card card4">
+            <div class="proj_card card4" data-aos="fade-up">
                 <a href="../projects/blog.html" aria-label="Read more about blog preview card project">
                 <img src="../images/thumbnail/blogprev.jpg" alt="Blog Preview Card">
                     <div class="cardtitle">
@@ -123,6 +126,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+
+     <!-- AOS JS -->
+     <script src="../dist/aos.js"></script>
+     <script>
+       AOS.init({
+         easing: 'ease-in-out-sine'
+       });
+     </script>
+ 
+     <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>
+     <script>
+       requirejs.config({
+           baseUrl: '../dist',
+       });
+ 
+       require(['aos'], function(AOS){
+           AOS.init({
+               easing: 'ease-in-out-sine'
+           });
+       });
+     </script> -->
+
 </body>
 
 </html>
