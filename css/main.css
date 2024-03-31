@@ -26,6 +26,10 @@
     line-height: 1.4rem;
 }
 
+.about.hero_wrap{
+    padding-bottom:1rem;
+}
+
 /* Adjust line spacing between first and last paragraph - about page */
 .about .secondpar{
     margin-top:-0.9rem;
