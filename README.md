@@ -1,6 +1,14 @@
 # Portfolio
 
 
+### The Process
+
+The creation started when our professor from the UX Design class tasked us to do the low fidelity wireframe. The reason for this minimal design is that I have contents that will likely compete my website design that is why I opted not to give too much elements.
+
+Attached below is the image for my low fidelity prototype
+![Low fidelity prototype](./images/md_Images/Screenshot%202024-03-31%20143850.png)
+
+
 ### Assets used
 
 **Frameworks**
