@@ -34,6 +34,13 @@ footer{
     gap: 0.3rem;
 }
 
+/* Fixes padding alignment for nav smaller screens */
+@media screen and (max-width:991px) {
+    .nav-link{
+        padding-left: 0.7rem;
+    }
+}
+
 /* Header style for larger screens */
 @media screen and (min-width:992px) {
 
