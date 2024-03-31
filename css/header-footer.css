@@ -68,6 +68,13 @@ footer{
     height: 3rem;
 }
 
+/* Adjusts spacing for dropdown menu items */
+.dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Hover style */
 li a:hover{
     border-bottom: 3px solid #ff0000;
