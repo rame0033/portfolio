@@ -1,4 +1,4 @@
-:root{
+:root {
     --bs-active: #ffffff;
     --bs-active-rgb: 255, 255, 255;
 }
@@ -6,11 +6,12 @@
 /* Nav-link active */
 .nav-link:focus,
 .nav-link:active {
-    color:var(--bs-active);
+    color: var(--bs-active);
     background-color: #3E69B2;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: var(--bs-active);
 }
 
@@ -20,23 +21,23 @@
 }
 
 /* Footer style */
-footer{
+footer {
     display: flex;
-    padding:1.5rem 1rem 0.5rem;
+    padding: 1.5rem 1rem 0.5rem;
 }
 
-.attribution{
+.attribution {
     flex-grow: 1;
 }
 
-.socmed{
+.socmed {
     display: flex;
     gap: 0.3rem;
 }
 
 /* Fixes padding alignment for nav smaller screens */
 @media screen and (max-width:991px) {
-    .nav-link{
+    .nav-link {
         padding-left: 0.7rem;
     }
 }
@@ -45,57 +46,57 @@ footer{
 @media screen and (min-width:992px) {
 
     /* NAV BAR */
-    .navbar{
+    .navbar {
         padding: 1rem 0;
     }
 
     /* To add a gap between logo and nav links */
-    .navbar-brand{
+    .navbar-brand {
         flex-grow: 20;
     }
 
-/* Adjusts logo size in larger screens */
-.navbar-brand img{
-    width:15rem;
-    padding-left: 2rem;
-}
+    /* Adjusts logo size in larger screens */
+    .navbar-brand img {
+        width: 15rem;
+        padding-left: 2rem;
+    }
 
-.navbar-nav{
-    position: relative;
-    padding-top:0.4rem;
-}
+    .navbar-nav {
+        position: relative;
+        padding-top: 0.4rem;
+    }
 
-.nav-item{
-    width:8rem;
-}
+    .nav-item {
+        width: 8rem;
+    }
 
-.nav-item a{
-    font-size:1.3rem;
-    text-align: center;
-    height: 3rem;
-}
+    .nav-item a {
+        font-size: 1.3rem;
+        text-align: center;
+        height: 3rem;
+    }
 
-/* Adjusts spacing for dropdown menu items */
-.dropdown-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    /* Adjusts spacing for dropdown menu items */
+    .dropdown-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-/* Hover style */
-li a:hover{
-    border-bottom: 3px solid #ff0000;
-}
+    /* Hover style */
+    li a:hover {
+        border-bottom: 3px solid #ff0000;
+    }
 
-/* Focus and active styles for larger screens */
-nav a:focus,
-nav a:active {
-    border-radius: 10px;
-    border:0;
-}
+    /* Focus and active styles for larger screens */
+    nav a:focus,
+    nav a:active {
+        border-radius: 10px;
+        border: 0;
+    }
 
-footer{
-    padding: 1.5rem 1.5rem 1rem;
-}
+    footer {
+        padding: 1.5rem 1.5rem 0.5rem;
+    }
 
 }
