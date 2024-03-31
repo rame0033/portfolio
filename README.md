@@ -15,7 +15,9 @@ Here's the final look before I do coding.
 
 ## And now the coding part...
 
-As I have said earlier, the design is not too much complicated but I have too much pages because most of it were dedicated for categories, and also write-up explanations for individual projects specifically for graphic design and web development. 
+As I have said earlier, the design is not too much complicated but I have too much pages because most of it were dedicated for categories, and also write-up explanations for individual projects specifically for graphic design and web development. I have to code first the page for each project since it has the simplest design but other than that, it has to be repeated at least nine times. 
+
+<!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 
 
