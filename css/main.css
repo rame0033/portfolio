@@ -173,6 +173,7 @@ textarea {
 
     .banner.about {
         flex-direction: row-reverse;
+        padding-bottom: 1rem;
     }
 
     .banner h1 {
