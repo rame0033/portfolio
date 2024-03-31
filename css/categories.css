@@ -55,7 +55,7 @@
 
 @media  screen and (min-width:768px) {
     /* Setting max-width for photography paragraph */
-    .main_category p {
+    .photography p {
         margin: 0 auto;
         max-width: 800px;
         padding-bottom: 2rem;
