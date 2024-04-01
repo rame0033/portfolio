@@ -24,7 +24,13 @@ I tried to read some internet discussions regarding github pages,consulted our m
 
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
+## Disclaimer
 
+**Honey lyric video**
+All assets used are courtesy of the original artist [rienne](https://open.spotify.com/artist/4TvZ190CDevLDBByQ5pXTP?si=DNiCMYFWRGG6nfAtdQ1tlg). I was tasked only to do animation and some marketing materials following the release of their song [honey](https://open.spotify.com/track/1xTUoJEXH6CSp1HyABuJOS?si=00384dcaf2f34160)
+
+**To The Stars**
+All assets used are courtesy of the director of [Destiny music video](https://www.youtube.com/watch?v=QJ-NmQMSr30&pp=ygUNZGVzdGlueSBhc3Rlcg%3D%3D), William Capistrano. The music label gave me the freedom to use their existing resources to design a cover art that would resemble to the identity of the band [ASTER](https://open.spotify.com/artist/5vskR6Pc4j5c9ydoawy0Tz?si=ALuLmvOlSLWbwIIXjYlHFQ) 
 
 ### Assets used
 
