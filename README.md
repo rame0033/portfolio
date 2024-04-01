@@ -33,7 +33,7 @@ All assets used are courtesy of the original artist [rienne](https://open.spotif
 All assets used are courtesy of the director of [Destiny music video](https://www.youtube.com/watch?v=QJ-NmQMSr30&pp=ygUNZGVzdGlueSBhc3Rlcg%3D%3D), William Capistrano. The music label gave me the freedom to use their existing resources to design a cover art that would resemble to the identity of the band [ASTER](https://open.spotify.com/artist/5vskR6Pc4j5c9ydoawy0Tz?si=ALuLmvOlSLWbwIIXjYlHFQ). 
 
 **Codewell Mockup Pages**
-The **Spense landing page** and **Web Developer Portfolio** mockup page are courtesy of the Codewell module. Unfortunately, Codewell's website was taken down that is why I cannot link my project to the original mock-up module.
+The **Spense landing page** and **Web Developer Portfolio** mockup page are courtesy of the Codewell module. Codewell is my website to go when I was doing some practice. Just like the [FrontEndMentor](https://www.frontendmentor.io/),they supply mock up pages and website that enable beginners like me to practice HTML and CSS. Unfortunately, Codewell's website was taken down that is why I cannot link my project to the original mock-up module.
 
 ### Assets used
 
