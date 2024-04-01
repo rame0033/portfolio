@@ -20,7 +20,7 @@ As I have said earlier, the design is not too much complicated but I have too mu
 ### File linking
 This is my first problematic encounter when I am on my early stage of coding my projects page. I have already finished the layout and pushed the code to my GitHub repository. Local render was fine but when I tried to enter the github pages link, my layout and images didn't render although I believed that time that all assets were linked properly to my HTML files. 
 
-I tried to read some internet discussions regarding github pages,consulted our mentor and find out that I missed a detail. When it comes to linking and my file is in a subdirectory, it is required to do e.g. `../css/styles.css` since it is a relative path hence the browser will be able to find it and apply my styles to the page.
+I tried to read some internet discussions regarding github pages,consulted our mentor and find out that I missed a detail. When it comes to linking and my file is in a subdirectory, it is required to do e.g. `../css/styles.css` since it is a relative path hence the browser will be able to find it and apply my styles and image assets to the page. This applied also when I linked my cards and navigations and it made me confuse somehow because I have to locate all of page and assets from their respective folders to properly link them and able to render to GitHub pages.
 
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
