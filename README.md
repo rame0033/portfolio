@@ -1,6 +1,5 @@
 # Portfolio
 
-
 ## Prototyping
 
 The creation started when our professor from the UX Design class tasked us to do the low fidelity wireframe. The reason for this minimal design is that I have contents that will likely compete my website design that is why I opted not to give too much elements.
@@ -25,6 +24,8 @@ I tried to read some internet discussions regarding github pages,consulted our m
 ### Image Sizing
 For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
 
+### Modifying Bootstrap Colors
+I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 ## Disclaimer
