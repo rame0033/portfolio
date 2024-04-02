@@ -22,6 +22,9 @@ This is my first problematic encounter when I am on my early stage of coding my 
 
 I tried to read some internet discussions regarding github pages,consulted our mentor and find out that I missed a detail. When it comes to linking and my file is in a subdirectory, it is required to do e.g. `../css/styles.css` since it is a relative path hence the browser will be able to find it and apply my styles and image assets to the page. This applied also when I linked my cards and navigations and it made me confuse somehow because I have to locate all of page and assets from their respective folders to properly link them and able to render to GitHub pages.
 
+### Image Sizing
+For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
+
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 ## Disclaimer
