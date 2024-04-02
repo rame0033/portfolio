@@ -40,7 +40,7 @@ All assets used are courtesy of the director of [Destiny music video](https://ww
 The **Spense landing page** and **Web Developer Portfolio** mockup page are courtesy of the Codewell module. Codewell is my website to go when I was doing some practice. Just like the [FrontEndMentor](https://www.frontendmentor.io/challenges),they supply mock up pages and website that enable beginners like me to practice HTML and CSS. Unfortunately, Codewell's website was taken down that is why I cannot link my project to the original mock-up module.
 
 ### Photos
-All photos in the photography section are mine. They are combination of my photowalks, volunteer for music gigs and outputs that were done during our Introduction to Photography class.
+All photos in the photography section are mine. They are combination of my photowalks, volunteer for music gigs, and outputs that were done during our Introduction to Photography class.
 
 ## Assets used
 
