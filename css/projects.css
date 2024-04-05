@@ -19,6 +19,10 @@
 .img_container {
     width: 100%;
     margin: 0 auto;
+}
+
+/* To add padding on all image container except with code snippets */
+.img_container:not(.snip){
     padding: 1.2rem;
 }
 
