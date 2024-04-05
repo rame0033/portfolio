@@ -123,6 +123,11 @@ footer {
         color: #ff0000;
     }
 
+    .dropdown-item:focus,
+    .dropdown-item:active {
+        color: var(--bs-active)
+    }
+
     /* Focus and active styles for larger screens */
     nav a:focus,
     nav a:active {
