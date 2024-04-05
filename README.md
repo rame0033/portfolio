@@ -6,12 +6,12 @@ Link to [Figma Mockup](https://www.figma.com/file/xyLCXvyModHQoD1v7y94Wb/ramelb_
 The creation started when our professor from the UX Design class tasked us to do the low fidelity wireframe. The reason for this minimal design is that I have contents that will likely compete my website design that is why I opted not to give too much elements.
 
 Attached below is the image for my low fidelity prototype
-![Low fidelity prototype](./images/md_Images/Screenshot%202024-03-31%20143850.png)
+![Low fidelity prototype](./images/md_Images/lofi.png)
 
 Come to a time that we're done with the high fidelity layout, we had the chance to show it to our classmates and get their feedback what to remove or retain. I honestly had a feeling that the cards below the banner is overwhelming or too much elements, someone had suggested that I remove the buttons as clicking the image can already lead the users to the projects' link. So I decided to remove it, and improve the header as the nav links were smaller on the low-fidelity prototype.
 
 Here's the final look before I do coding.
-![High-Fidelity Prototype](./images/md_Images/Screenshot%202024-03-31%20145003.png) 
+![High-Fidelity Prototype](./images/md_Images/hifi.png)
 
 ## And now the coding part...
 
@@ -24,6 +24,15 @@ I tried to read some internet discussions regarding github pages,consulted our m
 ### Form and Formspree
 The form is styled through Bootstrap but 
 I tried using [Formspree](https://formspree.io/) to make my form active. So everytime someone attempts to fill up the form on my contact page, they'll be able to send me the message because of this. I just have to access my Formspree account so I will be able to see their message. 
+
+1) So in this example, I am trying to type a sample message on the form.
+![sample message](./images/md_Images/submit.png)
+
+2) Once you hit the `Send` it will direct you to the confirmation page.
+![confirmation page](./images/md_Images/confirm.png)
+
+3) Then on my backend > which is the Formspree dashboard, I will be able to see there who sent a message to me.
+![formspree dashboard](./images/md_Images/dashboard.png)
 
 ### Image Sizing
 For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
