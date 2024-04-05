@@ -82,6 +82,7 @@ footer {
         padding-top: 0.4rem;
     }
 
+    /* Adjust width for nav-item li */
     .nav-item {
         width: 8rem;
     }
@@ -89,7 +90,17 @@ footer {
     .nav-item a {
         font-size: 1.3rem;
         text-align: center;
-        height: 3rem;
+        border-bottom: 0;
+        transition: all 0.3s ease;
+    }
+
+    .nav-item a:not(.dropdown-item){
+        height:3rem;
+    }
+
+    /* Adjust height for dropdown item height */
+    .dropdown-item{
+        height: 4.25rem;
     }
 
     /* Adjusts spacing for dropdown menu items */
@@ -97,11 +108,20 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 14rem;
     }
 
-    /* Hover style */
-    li a:hover {
+    /* Hover style for navigation except dropdown item*/
+    li a:not(.dropdown-item):hover {
         border-bottom: 3px solid #ff0000;
+    }
+
+    /* Hover for dropdown item */
+    .dropdown-item:hover,
+    .dropdown-item:focus {  
+        text-decoration: underline;
+        font-weight: 600;
+        color: #ff0000;
     }
 
     /* Focus and active styles for larger screens */
