@@ -50,8 +50,12 @@ All photos in the photography section are mine. They are combination of my photo
 - [Animate on Scroll](https://michalsnik.github.io/aos/)
 - Back to Top button - Courtesy of [MDBootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2964350)
 - Image masonry layout courtesy of [Infinite Scroll](https://infinite-scroll.com/demo/masonry/)
+- Syntax highlighting courtesy of [Highlight JS](https://highlightjs.org/)
 
 **Fonts**
 - Icons courtesy of [BoxIcons](https://boxicons.com/)
 - Neutro font courtesy of [CDN Fonts](https://www.cdnfonts.com/neutro.font)
 - Archivo font courtesy of [Google Fonts](https://fonts.google.com/specimen/Archivo?query=archivo)
+
+**Aditional Resource**
+- [FreeWebToolKit](https://freewebtoolkit.com/html-encode) to encode plain HTML to Encoded HTML
