@@ -1,5 +1,6 @@
 # Portfolio
 
+Link to Figma [Mockup](https://www.figma.com/file/xyLCXvyModHQoD1v7y94Wb/ramelb_gian_hi-fi-wireframe-whole-set?type=design&node-id=0%3A1&mode=design&t=ScFG9yaSKYICNQ18-1)
 ## Prototyping
 
 The creation started when our professor from the UX Design class tasked us to do the low fidelity wireframe. The reason for this minimal design is that I have contents that will likely compete my website design that is why I opted not to give too much elements.
