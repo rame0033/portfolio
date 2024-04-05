@@ -93,50 +93,23 @@
                 media query. The art direction is used to determine which photo should be displayed on a phone vs. a
                 tablet vs. a desktop.</p>
 
-            <!-- Code snippet -->
-            <!-- <div class="img_container snip">
-                <img src="../images/img_snip.png" alt="Code snippet for image query">
-            </div> -->
+<!-- Code snippet -->
 <pre>
     <code>
 
-  &lt;form action=&quot;thanks.html&quot; method=&quot;get&quot;&gt;
-  &lt;!-- Full name --&gt;
-   &lt;label for=&quot;fullname&quot;&gt;Full Name&lt;/label&gt;
-   &lt;input type=&quot;text&quot; placeholder=&quot;John Doe&quot; 
-      id=&quot;fullname&quot; name=&quot;fullname&quot; aria-required=&quot;true&quot; required&gt;
+    &lt;picture class=&quot;imgwrap&quot;&gt;
+        &lt;source srcset=&quot;images/hero_mobile.png&quot; 
+            media=&quot;(max-width:659px)&quot; /&gt;
 
-  &lt;!-- Email --&gt;
-  &lt;label for=&quot;youremail&quot;&gt;Email&lt;/label&gt;
-  &lt;input type=&quot;email&quot; placeholder=&quot;your@email.com&quot; 
-     id=&quot;youremail&quot; name=&quot;youremail&quot; aria-required=&quot;true&quot; required&gt;
+        &lt;source srcset=&quot;images/hero_tablet.png&quot; 
+            media=&quot;(max-width:1023px)&quot; /&gt;
 
- &lt;!-- Confirm Email --&gt;
- &lt;label for=&quot;confirm-email&quot;&gt;Confirm Email&lt;/label&gt;
- &lt;input type=&quot;email&quot; placeholder=&quot;your@email.com&quot; id=&quot;confirm-email&quot; 
-     name=&quot;confirm-email&quot; aria-required=&quot;true&quot; required&gt;
+        &lt;source srcset=&quot;images/hero_desktop.png&quot; 
+            media=&quot;(min-width:1024px)&quot; /&gt;
 
- &lt;!-- Create Password --&gt;
- &lt;label for=&quot;create-password&quot;&gt;Password (Maximum of 8 characters)&lt;/label&gt;
- &lt;input type=&quot;password&quot; id=&quot;create-password&quot; 
-     name=&quot;create-password&quot; minlength=&quot;5&quot; maxlength=&quot;8&quot;
-     aria-required=&quot;true&quot; required&gt;
-
- &lt;!-- Confirm Password --&gt;
- &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
- &lt;input type=&quot;password&quot; id=&quot;confirm-password&quot; name=&quot;confirm-password&quot;
-     aria-required=&quot;true&quot; required&gt;
-
- &lt;div class=&quot;terms&quot;&gt;
- &lt;!-- Terms &amp; Conditions --&gt;
- &lt;input type=&quot;Checkbox&quot; id=&quot;terms&quot; name=&quot;terms&quot; value=&quot;terms&quot; 
-     aria-required=&quot;true&quot; required&gt; &lt;label for=&quot;terms&quot;&gt;
-     I agree to the &lt;a href=&quot;#&quot;&gt;Terms &amp; Conditions&lt;/a&gt;&lt;/label&gt;
-     &lt;/div&gt;
-
- &lt;!-- Send Button --&gt;
- &lt;button type=&quot;submit&quot;&gt;Sign Up&lt;/button&gt;
- &lt;/form&gt;
+        &lt;img class=&quot;default_img&quot; src=&quot;images/hero_tablet.png&quot; 
+            alt=&quot;Woman seeing her earnings from spense&quot;&gt;
+    &lt;/picture&gt;
 
     </code>
 </pre>
