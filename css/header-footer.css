@@ -35,10 +35,26 @@ footer {
     gap: 0.3rem;
 }
 
-/* Fixes padding alignment for nav smaller screens */
 @media screen and (max-width:991px) {
+    /* Fixes padding alignment for nav smaller screens */
     .nav-link {
         padding-left: 0.7rem;
+    }
+
+    /* Footer style for smaller screens */
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Put icons on top of attribution */
+    .attribution{
+        order: 2;
+    }
+
+    /* Adjusts padding for social media icons */
+    .socmed {
+        gap:1rem;
     }
 }
 
