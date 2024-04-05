@@ -230,7 +230,7 @@ textarea {
 }
 
 /* Set the card section display in a row */
-@media screen and (min-width:1024px){
+@media screen and (min-width:1023px){
     
     /* Set the equal height of cards*/
     
