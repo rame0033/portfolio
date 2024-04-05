@@ -57,5 +57,5 @@ All photos in the photography section are mine. They are combination of my photo
 - Neutro font courtesy of [CDN Fonts](https://www.cdnfonts.com/neutro.font)
 - Archivo font courtesy of [Google Fonts](https://fonts.google.com/specimen/Archivo?query=archivo)
 
-**Aditional Resource**
+**Additional Resource**
 - [FreeWebToolKit](https://freewebtoolkit.com/html-encode) to encode plain HTML to Encoded HTML
