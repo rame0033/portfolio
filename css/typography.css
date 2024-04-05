@@ -28,6 +28,10 @@ h2, .h3, h4, h5, h6{
     text-align: center;
 }
 
+.projcardtitle h3{
+    font-weight: 700;
+}
+
 /* style for nav a */
 li a{
     font-family: 'Archivo', sans-serif;
