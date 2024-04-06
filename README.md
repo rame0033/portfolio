@@ -39,6 +39,9 @@ For image cards, I have to manually set their sizes through Photoshop. The reaso
 
 ### Modifying Bootstrap Colors
 I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
+
+<!-- INDICATE WHERE DID WE PUT SCHEMA/META DESCRIPTION!! -->
+
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 ## Disclaimer
