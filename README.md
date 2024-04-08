@@ -20,7 +20,7 @@ As I have said earlier, the design is not too much complicated but I have too mu
 ### File linking
 This is my first problematic encounter when I am on my early stage of coding my projects page. I have already finished the layout and pushed the code to my GitHub repository. Local render was fine but when I tried to enter the github pages link, my layout and images didn't render although I believed that time that all assets were linked properly to my HTML files. 
 
-I tried to read some internet discussions regarding github pages,consulted our mentor and find out that I missed a detail. When it comes to linking and my file is in a subdirectory, it is required to do e.g. `../css/styles.css` since it is a relative path hence the browser will be able to find it and apply my styles and image assets to the page. This applied also when I linked my cards and navigations and it made me confuse somehow because I have to locate all of page and assets from their respective folders to properly link them and able to render to GitHub pages.
+I tried to read some internet discussions regarding github pages, consulted our mentor and find out that I missed a detail. When it comes to linking and my file is in a subdirectory, it is required to do e.g. `../css/styles.css` since it is a relative path hence the browser will be able to find it and apply my styles and image assets to the page. This applied also when I linked my cards and navigations and it made me confuse somehow because I have to locate all of page and assets from their respective folders to properly link them and able to render to GitHub pages.
 
 ### Form and Formspree
 The form is styled through Bootstrap but 
@@ -43,6 +43,11 @@ The Bootstrap framework concept is still new to me but it amazes me on how it li
 
 ### Modifying Bootstrap Colors
 I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
+
+### Schema/Meta Description
+Meta descriptions are visible for every page of this website so it will contribute to a search engine's understanding. On the other hand 
+Schema was only implemented to my projects "To The Stars" and "Honey" the reason for this one is that it features real people, and they're artist as well so this is a way for search engine to see specific content of the webpage.
+
 
 <!-- INDICATE WHERE DID WE PUT SCHEMA/META DESCRIPTION!! -->
 
