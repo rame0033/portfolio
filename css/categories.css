@@ -26,10 +26,6 @@
 }
 
 /* Styling the projects card */
-.cards{
-    display:grid;
-    grid-template-rows: repeat(4,1fr);
-}
 
 .proj_card{
     width:100%;
@@ -75,10 +71,5 @@
     /* Setting height of the Naiv photo card */
     .cardpic.naiv {
         height: 58%;
-    }
-
-    .cards{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
     }
 }
