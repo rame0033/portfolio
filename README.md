@@ -38,6 +38,9 @@ I tried using [Formspree](https://formspree.io/) &#40; This is not required alth
 ### Image Sizing
 For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
 
+### Element Inspector
+The best tool I have learned during this semester is the Element Inspector. It made my work easier because I can manipulate element styles right away. For example, if I have to modify my image's border-radius at least the corner will not be sharp looking, so I give an initial value for `border-radius` by `5px` and I play around by adding and subtracting until I get the desired look I want and I copy-paste the value from the inspector to my code.
+
 ## Bootstrap 
 ### Navigation
 The Bootstrap framework concept is still new to me but it amazes me on how it lighten the work given to me, the ease of navigation styling and making it responsive helped me a lot since there are a lot of things to learn still especially the functionality of hamburger icon since it will be done with Javascript. 
@@ -48,11 +51,9 @@ I am amazed at how the bootstrap grid works. It is flexible and auto layout was 
 ### Modifying Bootstrap Colors
 I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
 
-### Schema/Meta Description
+## Schema/Meta Description
 Meta descriptions are visible for every page of this website so it will contribute to a search engine's understanding. On the other hand 
-Schema was only implemented to my projects "To The Stars" and "Honey" the reason for this one is that it features real people, and they're artist as well so this is a way for search engine to see specific content of the webpage.
-
-
+Schema was only implemented to my projects "To The Stars" and "Honey" the reason for this one is that it features other people that I had the chance to work with as well so this is a way for search engine to see specific content of the webpage.
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 ## Disclaimer
