@@ -38,8 +38,12 @@ I tried using [Formspree](https://formspree.io/) to make my form active. So ever
 ### Image Sizing
 For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
 
-### Bootstrap navigation
+## Bootstrap 
+### Navigation
 The Bootstrap framework concept is still new to me but it amazes me on how it lighten the work given to me, the ease of navigation styling and making it responsive helped me a lot since there are a lot of things to learn still especially the functionality of hamburger icon since it will be done with Javascript. 
+
+### Grids
+I am amazed at how the bootstrap grid works. It is flexible and auto layout was able to help me because I am not adding custom CSS just to assign grid styles for mobile and large screen queries. Assigning breakpoints to class names enabled me to achieve the style I wanted for my webpage. 
 
 ### Modifying Bootstrap Colors
 I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
