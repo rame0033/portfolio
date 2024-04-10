@@ -43,7 +43,7 @@ For image cards, I have to manually set their sizes through Photoshop. The reaso
 The Bootstrap framework concept is still new to me but it amazes me on how it lighten the work given to me, the ease of navigation styling and making it responsive helped me a lot since there are a lot of things to learn still especially the functionality of hamburger icon since it will be done with Javascript. 
 
 ### Grids
-I am amazed at how the bootstrap grid works. It is flexible and auto layout was able to help me because I am not adding custom CSS just to assign grid styles for mobile and large screen queries. Assigning breakpoints to class names enabled me to achieve the style I wanted for my webpage. 
+I am amazed at how the bootstrap grid works. It is flexible and auto layout was able to help me because I am not adding custom CSS just to assign grid styles for mobile and large screen queries. Assigning breakpoints to class names enabled me to achieve the style I wanted for my webpage. Photo masonry layout is also courtesy of the Bootstrap grid - I just have to modify the class naming to `col-lg-4 col-md-6 col-sm-12` for me to have a photo grid on my photography page. Another reason also why I gave this class for my photo grid is because the photo grid will be on a one long scroll for mobile, two column grid will be applied for tablet screens, and three column grid will be applied for desktop screens.
 
 ### Modifying Bootstrap Colors
 I honestly thought that modifying colors from Bootstrap framework will be likely as simple as giving the value directly to the custom CSS stylesheet. But I learned that I have to retrieve the `root` property from the `inspect` option of the browser just to modify and apply my desired color value for the element I modified.
