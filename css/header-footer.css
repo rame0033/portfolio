@@ -125,7 +125,8 @@ footer {
 
     .dropdown-item:focus,
     .dropdown-item:active {
-        color: var(--bs-active)
+        color: var(--bs-active);
+        background-color: var(--bs-dropdown-link-active-bg);
     }
 
     /* Focus and active styles for larger screens */
