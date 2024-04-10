@@ -53,8 +53,6 @@ Meta descriptions are visible for every page of this website so it will contribu
 Schema was only implemented to my projects "To The Stars" and "Honey" the reason for this one is that it features real people, and they're artist as well so this is a way for search engine to see specific content of the webpage.
 
 
-<!-- INDICATE WHERE DID WE PUT SCHEMA/META DESCRIPTION!! -->
-
 <!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
 
 ## Disclaimer
