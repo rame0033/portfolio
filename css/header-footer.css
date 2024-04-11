@@ -81,6 +81,7 @@ footer {
     .navbar-nav {
         position: relative;
         padding-top: 0.4rem;
+        gap: 1rem;
     }
 
     /* Adjust width for nav-item li */
