@@ -13,6 +13,7 @@
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
     color: var(--bs-active);
+    background-color: #3E69B2;
 }
 
 .dropdown-menu {
@@ -131,7 +132,7 @@ footer {
 
     /* Focus and active styles for larger screens */
     nav a:focus,
-    nav a:active {
+    .nav-link.active {
         border-radius: 10px;
         border: 0;
     }
