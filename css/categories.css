@@ -60,12 +60,6 @@
 }
 
 @media screen and (max-width:991px) {
-    /* CARD IMG HOVER STATE */
-    .proj_card a img:hover{
-        box-shadow: -5px 14px 27px -3px rgba(0,0,0,0.26);
-        transition: all 0.3s ease;
-    }
-    
     /* Setting height of the Naiv photo card */
     .cardpic.naiv {
         height: 71%;
@@ -73,6 +67,12 @@
 }
 
 @media screen and (min-width:992px) {
+
+    /* CARD IMG HOVER STATE */
+    .proj_card a img:hover{
+        box-shadow: -5px 14px 27px -3px rgba(0,0,0,0.26);
+        transition: all 0.3s ease;
+    }
 
     /* Setting height of the Naiv photo card */
     .cardpic.naiv {
