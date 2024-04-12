@@ -103,11 +103,10 @@ code {
     border-radius: 20px;
 }
 
-/* Positioning youtube video iframe */
-.youtube-video {
-  align-self: center;
-  width: 100%;
-  height:20rem;
+/* To set the YouTube embed to responsive frame */
+.embed-responsive-item{
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 /* Styling "back to top" button */
