@@ -132,7 +132,6 @@ footer {
     .dropdown-item:hover {  
         text-decoration: underline;
         font-weight: 600;
-        color: #ff0000;
     }
 
     .dropdown-item:focus,
