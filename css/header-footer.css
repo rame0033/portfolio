@@ -3,6 +3,17 @@
     --bs-active-rgb: 255, 255, 255;
 }
 
+/* Skip link style */
+.skip-links a{
+    background-color: #3E69B2;
+    color: var(--bs-active);
+    text-decoration: none;
+    font-weight: 600;
+    font-size:1.2rem;
+    padding: 1rem;
+    border: 0;
+}
+
 /* Nav-link active */
 .nav-link:focus,
 .nav-link:active {
