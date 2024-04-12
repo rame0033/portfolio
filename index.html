@@ -26,15 +26,22 @@
 </head>
 
 <body>
-    
+
     <!-- Back to top button -->
     <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" aria-label="Back to top">
         <i class='bx bx-caret-up'></i>
     </button>
 
+    <!-- Skip link -->
+    <div class="skip-links">
+        <a class="visually-hidden-focusable" href="#navbar">Skip to navigation</a>
+        <a class="visually-hidden-focusable" href="#main">Skip to main content</a>
+        <a href="#portfolio" class="visually-hidden-focusable">Skip to Portfolio</a>
+    </div>
+
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
+        <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./images/logo_def.svg"
                         alt="Gian William Logo"></a>
@@ -71,7 +78,7 @@
         </nav>
     </header>
 
-    <main class="main_category">
+    <main id="main" class="main_category">
 
         <!-- Hero banner goes here -->
         <div class="banner about">
@@ -97,7 +104,7 @@
             <h2>Portfolio</h2>
 
             <!-- Wrapping the cards -->
-            <div class="card_wrap">
+        <div id="portfolio" class="card_wrap">
 
                 <!-- Creating the cards -->
                 <div class="main_cat proj_card card1">
@@ -112,7 +119,8 @@
                             <source media="(min-width: 320px)"
                                 srcset="./images/project_category_card/mobile_bldgE-compressed.jpg">
 
-                            <img src="./images/project_category_card/buildinge_large.png" alt="Woman walking at building E">
+                            <img src="./images/project_category_card/buildinge_large.png"
+                                alt="Woman walking at building E">
                         </picture>
                         <div class="projcardtitle">
                             <h3>Photography</h3>
@@ -205,8 +213,8 @@
       });
     </script> -->
 
-     <!-- JS for Back To Top -->
-     <script src="./button.js"></script>
+    <!-- JS for Back To Top -->
+    <script src="./button.js"></script>
 
 </body>
 

@@ -32,9 +32,16 @@
     <i class='bx bx-caret-up'></i>
 </button>
 
+<!-- Skip link -->
+<div class="skip-links">
+    <a class="visually-hidden-focusable" href="#navbar">Skip to navigation</a>
+    <a class="visually-hidden-focusable" href="#main">Skip to main content</a>
+    <a class="visually-hidden-focusable" href="#spotlights">Skip to project spotlights</a>
+</div>
+
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
+        <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./images/logo_def.svg" alt="Gian William Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -70,7 +77,7 @@
         </nav>
     </header>
 
-    <main class="main_category">
+    <main id="main" class="main_category">
 
         <!-- Hero banner goes here -->
         <div class="banner about">
@@ -101,7 +108,7 @@
             <h2>Project Spotlights</h2>
 
             <!-- Wrapping the cards -->
-            <div class="card_wrap">
+            <div id="spotlights" class="card_wrap">
 
             <!-- Creating the cards -->
             <div class="proj_card card1">
