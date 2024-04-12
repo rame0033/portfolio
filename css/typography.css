@@ -12,7 +12,8 @@ h1{
     color: #333;
 }
 
-.main_category h2{
+/* To apply styles in all main page h2 except contact page h2 */
+.main_category h2:not(h2.display-6){
     font-family: 'Archivo', sans-serif;
     font-weight: 800;
     font-size: 1.8rem;
