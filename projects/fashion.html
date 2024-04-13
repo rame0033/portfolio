@@ -96,11 +96,11 @@
 
             <p>We were tasked to build the <a href="https://www.figma.com/file/3REwPDMgW1eDTeexIGQOAI/Shopping-Website-(Community)?type=design&node-id=2-2&mode=design" aria-label="Link to figma prototype">Figma file</a> into a website prototype for our midterm project. The desktop layout for the site is given, the challenge is to build another two pages for the site and compose a layout </p>
 
-            <p>So before I started coding, first thing is to sketch the low fidelity of the website mobile and tablet layout.</p> 
+            <p id="fid_sketch">So before I started coding, first thing is to sketch the low fidelity of the website mobile and tablet layout.</p> 
             
             <!-- Add sketch image here -->
             <div class="img_container">
-                <img src="../images/lo-fi_sketch.jpg" alt="low fidelity sketch">
+                <img src="../images/lo-fi_sketch.jpg" alt="low fidelity sketch" aria-details="fid_sketch">
             </div>
             <p> I have decided to hide all banner images for smaller screens. The reason for this is to show all CTA right away and to retain these images are overwhelming for views in smaller screens.</p>
 
@@ -120,10 +120,10 @@
         <img src="../images/sign-up-cap.png" alt="Sign Up Page">
       </div>
 
-    <p>Adding form is easy, but the validation becomes the challenge for me since this is my first time encountering this concept. So what I did is to search for proper input types, added an <code>aria-required</code> property so the user won't be able to skip or forget any component that is required. Adding a <code>min</code> and <code>max</code> property for password as I have stated in the label that it should be maximum of 8 characters only. Below is the code snippet for the sign-up page.</p>
+    <p><span id="form_valid">Adding form is easy, but the validation becomes the challenge for me since this is my first time encountering this concept. So what I did is to search for proper input types, added an <code>aria-required</code> property so the user won't be able to skip or forget any component that is required. Adding a <code>min</code> and <code>max</code> property for password as I have stated in the label that it should be maximum of 8 characters only.</span> Below is the code snippet for the sign-up page.</p>
 
     <!-- Code Snippet -->
-    <pre>
+    <pre aria-details="form_valid">
         <code>
     
       &lt;form action=&quot;thanks.html&quot; method=&quot;get&quot;&gt;
