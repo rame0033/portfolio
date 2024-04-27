@@ -21,7 +21,6 @@
 
 /* Adjusting font-size for about banner */
 .about p {
-    padding-top: 1rem;
     font-size: 1rem;
     line-height: 1.4rem;
 }
@@ -199,7 +198,6 @@ textarea {
     }
 
     .banner .home.text-wrap p{
-        padding-top:0; 
         font-size:1.25rem;
         line-height:1.7rem;
     }
