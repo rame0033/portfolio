@@ -259,5 +259,7 @@ textarea {
 
     .v1dwrap{
         width:70%;
+        padding-right: 0.7rem;
+        border-right-style: inset;
     }
 }
