@@ -103,8 +103,9 @@ code {
     border-radius: 20px;
 }
 
-/* To set the YouTube embed to responsive frame */
-.embed-responsive-item{
+/* To set the YouTube/Vimeo embed to responsive frame */
+.embed-responsive-item,
+.v1meofra{
     aspect-ratio: 16 / 9;
     width: 100%;
 }
