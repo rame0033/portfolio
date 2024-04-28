@@ -246,6 +246,8 @@ textarea {
     /* Style for demo reel in larger screens */
     .demoReel{
         display: flex;
+        flex-direction: row-reverse;
+        gap:1rem;
         align-items: center;
     }
     
