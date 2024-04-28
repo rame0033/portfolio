@@ -79,6 +79,12 @@
     line-height: 0;
 }
 
+/****DEMO REEL***/
+.demoReel{
+    padding: 1.7rem;
+    box-shadow: -4px 0px 35px -3px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+}
 
 /* CONTACT FORM */
 .display-6 {
@@ -236,5 +242,19 @@ textarea {
         display: flex;
         flex-direction: row;
     }
+
+    /* Style for demo reel in larger screens */
+    .demoReel{
+        display: flex;
+        align-items: center;
+    }
     
+
+    .demotxt{
+        width:50%;
+    }
+
+    .v1dwrap{
+        width:70%;
+    }
 }
