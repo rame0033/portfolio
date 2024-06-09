@@ -7,6 +7,7 @@
     --bs-primary-rgb: 62, 105, 178;
     --bs-secondary: #1a3a70;
     --bs-secondary-rgb: 26, 58, 112;
+    --bs-border-radius-lg: 2rem;
 }
 
 /* Main container */
@@ -127,6 +128,9 @@ code {
     --bs-btn-active-border-color:var(--bs-secondary);;
     --bs-btn-disabled-bg: #dc3545;
     --bs-btn-disabled-border-color: #dc3545;
+    --bs-btn-border-radius:var(--bs-border-radius-lg); 
+    --bs-btn-padding-y: 0.45rem;
+    --bs-btn-padding-x: 0.75rem;
   }
 
   /* Styling the code snippet box */
