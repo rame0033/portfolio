@@ -259,6 +259,9 @@ textarea {
 
     .v1dwrap{
         width:70%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
         padding-right: 0.7rem;
         border-right-style: inset;
     }
