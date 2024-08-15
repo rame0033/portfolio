@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My JavaScript beginner project courtesy of Scrimba.">
+    <title>Gian William | Unit Converter</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/gian_favicon-1.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+
+<body>
+
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" aria-label="Back to top">
+        <i class='bx bx-caret-up'></i>
+    </button>
+
+    <!-- Skip links -->
+    <div class="skip-links">
+        <a class="visually-hidden-focusable" href="#navbar">Skip to navigation</a>
+        <a class="visually-hidden-focusable" href="#main_con">Skip to main content</a>
+    </div>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo_def.svg"
+                        alt="Gian William Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mt-sm-2 mt-lg-0 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../categories/photography.html">Photography</a></li>
+                                <li><a class="dropdown-item" href="../categories/web_dev.html">Web Development</a></li>
+                                <li><a class="dropdown-item" href="../categories/gfxdesign.html">Graphic Design</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="project_body" id="main_con">
+        <!-- Heading -->
+        <h1>Unit Converter</h1>
+
+        <div class="content">
+            <!-- Main image -->
+            <div class="img_container">
+                <img src="../images/converter81524-1746H.png" alt="Unit Converter interface">
+            </div>
+
+            <!-- Button links -->
+            <div class="button_links">
+                <a href="https://rame0033.github.io/unit-converter/" class="button site"
+                    aria-label="Go to site" target="_blank"><i class='bx bx-globe'></i>Go to Site</a>
+
+                <a href="https://github.com/rame0033/unit-converter" class="button site"
+                    aria-label="Go to github" target="_blank"><i class='bx bxl-github'></i>Go to Github</a>
+            </div>
+
+            <p>This project is part of the <i>practice time</i> of the "Learn JavaScript" module of <a
+                    href="https://v2.scrimba.com/learn-javascript-c0v/~05h"
+                    target="_blank">Scrimba</a></p>
+
+            <p>The converter is being built from scratch and the display layout is based from the <a href="https://www.figma.com/design/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?node-id=0-1&t=FcVmcPYD38ru0SqA-0" target="_blank">Figma file</a> provided on the lesson.</p>
+
+            <p>The input value will be multiplied to the corresponding value of the respective unit. The target unit are as follows:</p>
+            <ul>
+                <li>
+                    Meter to Feet (1m = 3.281ft) and vice versa (1ft = 0.3048m)
+                </li>
+
+                <li>
+                    Liter to Gallon (1L = 0.264gal) and vice versa (1gal = 3.785L)
+                </li>
+
+                <li>
+                    Kilogram to Pound (1kg = 2.205lb) and vice versa (1lb = 0.4536kg)
+                </li>
+            </ul>
+           
+            <p></p>
+            <!-- Snippet -->
+            <pre>
+                <code>
+            /* Adding a pointed corner to the quota box */
+            .rem:after{
+                content:'';
+                position:absolute;
+                width:2rem;
+                height:2rem;
+                background: #FFFAFA;
+                clip-path: polygon(0 0, 100% 100%, 100% 0);
+                top:80%;
+                right:0%;
+            }
+                </code>
+            </pre>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="attribution">
+            <p>Copyright &copy; 2024 Gian William</p>
+        </div>
+
+        <div class="socmed">
+            <a href="https://github.com/rame0033" target="_blank" title="Github"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/gian-william-ramelb" target="_blank" title="LinkedIn"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/the_gian_william/" target="_blank" title="Instagram"><i
+                    class='bx bxl-instagram'></i></a>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <!-- JS for Back To Top -->
+    <script src="../button.js"></script>
+</body>
+
+</html>
