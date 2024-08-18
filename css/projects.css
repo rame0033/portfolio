@@ -113,6 +113,11 @@ code {
     width: 100%;
 }
 
+/* Styling the video container - NO LORE FRAME*/
+.no-lore-frame{
+    aspect-ratio: 4/3;
+}
+
 /* Styling "back to top" button */
 #btn-back-to-top {
     position: fixed;
