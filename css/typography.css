@@ -54,6 +54,12 @@ a{
     font-family: 'Archivo', sans-serif;
 }
 
+/* Style for form label & button */
+form .form-label,
+form .custom-btn{
+    font-family: 'Archivo', sans-serif;
+}
+
 q{
     font-style: italic;
 }
