@@ -7,7 +7,7 @@ Link to [Figma Mockup](https://www.figma.com/file/AlZktwdZF1Wq0SUR1rDvBk/ramelb_
 January 2024 - In our User Experience Design class, we were informed that the final project for the term will be the final prototype of our portfolio website. We started with our own proposals, so in my case I tried to combine my graphic design, web design and development, and photography projects to give a flexibility on what I can offer based from what I learned from the Interactive Media Design program. 
 
 ### Moodboard
-![Keywords](./images/md_Images/keywords.png)
+![Keywords](./images/md_Images/keywords.png)<br />
 
 To define the mood of my site, I have described my look and feel to be enthusiastic, conventional, informative. I emphasize being dynamic on the product I give, the message we want to bring to everyone. Being conventional is to be reliable for the market, gaining trust that seeks stability. And last, being informative, offering a transparent and educational approach as we guide our potential market through our offerings and values.
 With this words, I have associated a specific shade of red, blue, and black. 
