@@ -1,6 +1,20 @@
 # Portfolio
 
 Link to [Figma Mockup](https://www.figma.com/file/AlZktwdZF1Wq0SUR1rDvBk/ramelb_gian_prototype?type=design&node-id=0%3A1&mode=design&t=qTUOXMbdtlvdTDFJ-1)
+
+## Background
+
+January 2024 - In our User Experience Design class, we were informed that the final project for the term will be the final prototype of our portfolio website. We started with our own proposals, so in my case I tried to combine my graphic design, web design and development, and photography projects to give a flexibility on what I can offer based from what I learned from the Interactive Media Design program. 
+
+### Moodboard
+![Keywords](./images/md_Images/keywords.png)
+To define the mood of my site, I have described my look and feel to be enthusiastic, conventional, informative. I emphasize being dynamic on the product I give, the message we want to bring to everyone. Being conventional is to be reliable for the market, gaining trust that seeks stability. And last, being informative, offering a transparent and educational approach as we guide our potential market through our offerings and values.
+With this words, I have associated a specific shade of red, blue, and black. 
+![Moodboard](./images/md_Images/moodboard.png)
+
+My choice of heading font would be Neutro, and Archivo for the body. I used mostly sans serif fonts for my website so regardless of how big or small the screen the user has, it will still be readable.
+![Style tiles](./images/md_Images/style-tiles.png)
+
 ## Prototyping
 
 The creation started when our professor from the UX Design class tasked us to do the low fidelity wireframe. The reason for this minimal design is that I have contents that will likely compete my website design that is why I opted not to give too much elements.
