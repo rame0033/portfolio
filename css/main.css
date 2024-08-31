@@ -108,9 +108,15 @@
     --bs-btn-active-border-color: #101111;
     --bs-btn-disabled-bg: #101111;
     --bs-btn-disabled-border-color: #101111;
-
+    
     /* Other styles */
     width: 100%;
+    transition: all ease 0.3s;
+}
+
+/* Button active state */
+.btn-primary:active {
+    scale: 0.9;
 }
 
 /* Form text area */
@@ -233,6 +239,11 @@ textarea {
     /* CONTCT BUTTON */
     .btn-primary {
         width: 20%;
+    }
+
+    /* Button hover state */
+    .btn-primary:hover {
+        background-color: #353535;
     }
 }
 
