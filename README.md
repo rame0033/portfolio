@@ -81,8 +81,12 @@ All assets used are courtesy of the original artist [rienne](https://open.spotif
 ### To The Stars
 All assets used are courtesy of the director of [Destiny music video](https://www.youtube.com/watch?v=QJ-NmQMSr30&pp=ygUNZGVzdGlueSBhc3Rlcg%3D%3D), William Capistrano. The music label gave me the permission to use their existing resources to design a cover art that would resemble to the identity of the band [ASTER](https://open.spotify.com/artist/5vskR6Pc4j5c9ydoawy0Tz?si=ALuLmvOlSLWbwIIXjYlHFQ). 
 
+### Web Development
+Projects showcased under the Web Development page are courtesy of 
+[FrontEndMentor](https://www.frontendmentor.io/challenges), Codewell, and the JavaScript module of [Scrimba](https://v2.scrimba.com/learn-javascript-c0v). Unfortunately, my Scrimba account is only free so I have limited access to the community to showcase and ask for suggestions on what to improve in my coding specifically for JavaScript. 
+ 
 ### Codewell Mockup Pages
-The **Spense landing page** and **Web Developer Portfolio** mockup page are courtesy of the Codewell module. Codewell is my website to go when I was doing some practice. Just like the [FrontEndMentor](https://www.frontendmentor.io/challenges),they supply mock up pages and website that enable beginners like me to practice HTML and CSS. Unfortunately, Codewell's website was taken down that is why I cannot link my project to the original mock-up module.
+The **Spense landing page** and **Web Developer Portfolio** mockup page are courtesy of the Codewell module. Codewell is my website to go when I was doing some practice. Just like the [FrontEndMentor](https://www.frontendmentor.io/challenges), they supply mock up pages and website that enable beginners like me to practice HTML and CSS. Unfortunately, Codewell's website was taken down that is why I cannot link my project to the original mock-up module.
 
 ### Photos
 All photos in the photography section are mine. They are combination of my photowalks, volunteer for music gigs, and outputs that were done during our Introduction to Photography class.
