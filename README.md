@@ -8,6 +8,7 @@ January 2024 - In our User Experience Design class, we were informed that the fi
 
 ### Moodboard
 ![Keywords](./images/md_Images/keywords.png)
+
 To define the mood of my site, I have described my look and feel to be enthusiastic, conventional, informative. I emphasize being dynamic on the product I give, the message we want to bring to everyone. Being conventional is to be reliable for the market, gaining trust that seeks stability. And last, being informative, offering a transparent and educational approach as we guide our potential market through our offerings and values.
 With this words, I have associated a specific shade of red, blue, and black. 
 ![Moodboard](./images/md_Images/moodboard.png)
