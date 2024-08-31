@@ -27,13 +27,13 @@ The form is styled through Bootstrap but
 I tried using [Formspree](https://formspree.io/) &#40; This is not required although I want to make this work just incase I'll be distributing my portfolio to potential networks. &#41;to make my form active. So everytime someone attempts to fill up the form on my contact page, they'll be able to send me the message because of this. I just have to access my Formspree account so I will be able to see their message. 
 
 1) So in this example, I am trying to type a sample message on the form.
-![sample message](./images/md_Images/submit.png)
+![sample message](./images/md_Images/submit.png)\
 
 2) Once you hit the `Send` it will direct you to the confirmation page.
-![confirmation page](./images/md_Images/confirm.png)
+![confirmation page](./images/md_Images/confirm.png)\
 
 3) Then on my backend > which is the Formspree dashboard, I will be able to see there who sent a message to me.
-![formspree dashboard](./images/md_Images/dashboard.png)
+![formspree dashboard](./images/md_Images/dashboard.png)\
 
 ### Image Sizing
 For image cards, I have to manually set their sizes through Photoshop. The reason for this one is to have the same sizes for all of images regardless if it's on categories, or if it's for the projects' card.
@@ -54,7 +54,7 @@ I honestly thought that modifying colors from Bootstrap framework will be likely
 ## Schema/Meta Description
 Meta descriptions are visible for every page of this website so it will contribute to a search engine's understanding. On the other hand 
 Schema was only implemented to my projects "To The Stars" and "Honey" the reason for this one is that it features other people that I had the chance to work with as well so this is a way for search engine to see specific content of the webpage.
-<!-- "Tell us about your process, challenges you faced during development and how you overcame those changes. What have you learned by creating your web portfolio?" -->
+
 
 ## Disclaimer
 
