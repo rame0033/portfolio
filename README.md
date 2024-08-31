@@ -43,10 +43,10 @@ I tried to read some internet discussions regarding github pages, consulted our 
 The form is styled through Bootstrap but 
 I tried using [Formspree](https://formspree.io/) &#40; This is not required although I want to make this work just incase I'll be distributing my portfolio to potential networks. &#41;to make my form active. So everytime someone attempts to fill up the form on my contact page, they'll be able to send me the message because of this. I just have to access my Formspree account so I will be able to see their message. 
 
-1) So in this example, I am trying to type a sample message on the form.
+1) So in this example, I am trying to type a sample message on the form. <br />
 ![sample message](./images/md_Images/submit.png)
 
-2) Once you hit the `Send` it will direct you to the confirmation page.
+2) Once you hit the `Send` it will direct you to the confirmation page. <br />
 ![confirmation page](./images/md_Images/confirm.png)
 
 3) Then on my backend > which is the Formspree dashboard, I will be able to see there who sent a message to me.
