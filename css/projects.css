@@ -94,6 +94,11 @@ p {
     line-height: 2rem;
 }
 
+/* Styling for the li element in - converter page */
+li{
+    font-family: 'Archivo', sans-serif;
+}
+
 /* styling photo cards for photography page */
 picture img{
     margin-bottom:1rem;
