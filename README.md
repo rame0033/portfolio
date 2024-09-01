@@ -1,6 +1,6 @@
 # Portfolio
 
-Link to [Figma Mockup](https://www.figma.com/file/AlZktwdZF1Wq0SUR1rDvBk/ramelb_gian_prototype?type=design&node-id=0%3A1&mode=design&t=qTUOXMbdtlvdTDFJ-1)
+Check out the mockup in [Figma](https://www.figma.com/file/AlZktwdZF1Wq0SUR1rDvBk/ramelb_gian_prototype?type=design&node-id=0%3A1&mode=design&t=qTUOXMbdtlvdTDFJ-1)!
 
 ## Background
 
