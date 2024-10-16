@@ -249,12 +249,16 @@ textarea {
 
 /* Set the card section display in a row */
 @media screen and (min-width:1023px){
+    .proj_spot{
+        width: 90%;
+        margin: 0 auto;
+    }
     
     /* Set the equal height of cards*/
-    
     .proj_spot .card_wrap{
         display: flex;
         flex-direction: row;
+        gap: 1rem;
     }
 
     /* Style for demo reel in larger screens */
